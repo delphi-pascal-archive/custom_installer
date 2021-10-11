@@ -1,0 +1,18 @@
+/****************************************************************************
+
+AppFiles.rc
+
+NOTE:
+If any of of the files "A.DLL", "B.DLL" or "MyApp.chm" is not located in the same directory as this .RC file,
+you may need to supply a full path-filename, 
+e.g. 
+    dllA RCDATA "c:\Delphi\projects\MyApp\a.dll"
+etc.
+
+*****************************************************************************/
+
+MyApp    RCDATA "MyApp.exe"
+dllA     RCDATA "A.DLL"
+dllB     RCDATA "B.DLL"
+HelpFile RCDATA "MyApp.chm"
+Uninstaller RCDATA "Uninstall.exe"

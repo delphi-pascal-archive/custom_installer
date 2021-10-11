@@ -1,0 +1,10 @@
+/****************************************************************************
+
+AppResources.rc
+
+Images and icons required by the application
+
+*****************************************************************************/
+
+MyAppImage    RCDATA "MyApp.jpg"
+SetupIcon     RCDATA "SetupIcon.jpg"
